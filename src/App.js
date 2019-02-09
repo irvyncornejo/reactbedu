@@ -35,21 +35,9 @@ resta(a,b){
     }
     return (
       <div style = {estilos}>
-        <Header title= 'Aquí va el titulo'
-        seccion = "Nosotros"
-        secciones = {{
-          seccion1: "Equipo",
-          seccion2: "Ayuda",
-          seccion3: "Contacto"
-        }}/>
-        <h1 > Hola </h1>
-        <p> {suma(5,6)}</p>
-        <p> {this.multiplicacion(5,6)}</p>
-        <p> {this.div(5,6)}</p>
-        <p> {this.resta(5,6)}</p>
-        <Elementos/>
+
         <Busqueda/>
-        <Footer/>
+        
       </div>
 
     );
